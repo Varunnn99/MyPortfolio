@@ -16,12 +16,18 @@ Video Description : https://drive.google.com/file/d/1NCppYcxinxuIJDI7BARF-aAHe1k
   - **My Skills Section**: Displays my technical skills.
   - **Contact Me Section**: A form for visitors to reach out to me.
 
+![Portfolio Screenshot](AboutMe.png)
+![Portfolio Screenshot](projects.png)
+![Portfolio Screenshot](skills.png)
+
 ### 🔒 **Authentication & CMS**
 - **Login & Register System**
   - Users can log in via the "Login" button on the navbar.
   - Passwords are hashed securely using **bcrypt**.
 - **CMS Functionality**
   - Logged-in users can **add projects, add skills, and edit the "About Me" description**.
+
+![Portfolio Screenshot](LOGIN.png)
 
 ### 📩 **Contact Form with Nodemailer**
 - The "Contact Me" form sends all details to my email using **Nodemailer**.
