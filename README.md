@@ -5,6 +5,8 @@ I created a **Portfolio Website** using **React.js** that serves as my personal 
 
 Video Description : https://drive.google.com/file/d/1NCppYcxinxuIJDI7BARF-aAHe1kuG32L/view?usp=sharing
 
+![Portfolio Screenshot](HeroSection.png)
+
 ## 🚀 Features
 ### 🌟 **Frontend (React.js)**
 - **Home Page**
