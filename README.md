@@ -1,70 +1,93 @@
-# MY PORTFOLIO
+# React.js Portfolio with CMS
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 📌 Project Overview
+I created a **Portfolio Website** using **React.js** that serves as my personal portfolio, showcasing my projects, skills, and achievements. The portfolio includes a **Content Management System (CMS)** that allows me to manage content dynamically.
 
-## Available Scripts
+## 🚀 Features
+### 🌟 **Frontend (React.js)**
+- **Home Page**
+  - **Hero Section**: Displays my photo, introduction, and a "Download CV" option.
+  - **About Me Section**: Includes a brief description about me.
+  - **My Portfolio Section**: Showcases my projects with links to view them.
+  - **My Skills Section**: Displays my technical skills.
+  - **Contact Me Section**: A form for visitors to reach out to me.
 
-In the project directory, you can run:
+### 🔒 **Authentication & CMS**
+- **Login & Register System**
+  - Users can log in via the "Login" button on the navbar.
+  - Passwords are hashed securely using **bcrypt**.
+- **CMS Functionality**
+  - Logged-in users can **add projects, add skills, and edit the "About Me" description**.
 
-### `npm start`
+### 📩 **Contact Form with Nodemailer**
+- The "Contact Me" form sends all details to my email using **Nodemailer**.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### 🛠️ **Backend (Node.js & Express.js)**
+- Uses **Node.js** with **Express.js** to handle backend logic.
+- Implements **RESTful APIs** to manage portfolio content.
+- **Authentication & Authorization** with **JWT (JSON Web Tokens)**.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### 🗄️ **Database (MySQL)**
+- Stores portfolio data in **MySQL** with the following tables:
+  - **projects** (stores project details)
+  - **skills** (stores skills data)
+  - **users** (stores user credentials & authentication details)
+  - **aboutme** (stores the "About Me" description)
 
-### `npm test`
+## 🛠️ Technologies Used
+- **Frontend**: React.js, HTML, CSS, JavaScript
+- **Backend**: Node.js, Express.js
+- **Database**: MySQL
+- **Authentication**: bcrypt, JWT
+- **Email Service**: Nodemailer
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 📌 Future Enhancements
+- **Theme Customization**: Users can change the portfolio theme.
+- **Blog Section**: Add a blog section for writing articles.
+- **File Upload Support**: Allow users to upload images for projects.
+- **Live Deployment**: Host the website on a cloud platform (e.g., Vercel, Netlify, AWS, or Heroku).
 
-### `npm run build`
+## 📂 How to Run the Project
+### 1️⃣ Clone the Repository
+```sh
+git clone https://github.com/yourusername/your-repository.git
+cd your-repository
+```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### 2️⃣ Install Dependencies
+```sh
+npm install
+cd client  # Navigate to frontend folder
+npm install
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### 3️⃣ Set Up the Backend
+- Create a `.env` file in the root folder and add:
+```env
+PORT=5000
+MYSQL_HOST=your-mysql-host
+MYSQL_USER=your-mysql-username
+MYSQL_PASSWORD=your-mysql-password
+MYSQL_DATABASE=your-database-name
+JWT_SECRET=your-secret-key
+EMAIL_USER=your-email@gmail.com
+EMAIL_PASS=your-email-password
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- Start the backend:
+```sh
+npm start
+```
 
-### `npm run eject`
+### 4️⃣ Start the Frontend
+```sh
+cd client
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 🤝 Contributing
+Feel free to suggest improvements or report issues!
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
+Let me know if you want any modifications! 🚀
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
