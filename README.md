@@ -18,7 +18,7 @@ Video Description : https://drive.google.com/file/d/1NCppYcxinxuIJDI7BARF-aAHe1k
 
 ![Portfolio Screenshot](AboutMe.png)
 ![Portfolio Screenshot](projects.png)
-![Portfolio Screenshot](skills.png)
+![Portfolio Screenshot](Skills.png)
 
 ### 🔒 **Authentication & CMS**
 - **Login & Register System**
